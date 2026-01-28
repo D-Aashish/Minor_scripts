@@ -11,18 +11,20 @@ Follow the steps below to set up the virtual environment, install dependencies, 
 ```bash
 python -m venv venv
 venv\Scripts\activate
-
-macOS / Linux
+```
+### macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
 
-Install Dependencies
+###  Install Dependencies
 
 Make sure your virtual environment is activated, then install :
 
+```bash
 pip install -r requirements.txt
-
-Run the Script
+```
+### Run the Script
+```bash
 python script.py
-
+```
 deactivate
